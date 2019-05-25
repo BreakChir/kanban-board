@@ -2,8 +2,10 @@
   "name": "kanban",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://BreakChir.github.io/kanban-board",
   "dependencies": {
     "classnames": "2.2.6",
+    "gh-pages": "2.0.1",
     "react": "16.8.5",
     "react-dnd": "7.4.5",
     "react-dnd-html5-backend": "7.4.4",
@@ -31,7 +33,8 @@
     "lint-fix:js": "eslint --fix '**/*.{js,jsx}'",
     "lint-fix:css": "stylelint --fix '**/*.css'",
     "format": "prettier --write '**/*.{js,jsx,css,json,md}'",
-    "now-build": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
