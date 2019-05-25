@@ -1,0 +1,11 @@
+.board {
+  position: relative;
+
+  padding: 20px;
+}
+
+.column {
+  display: inline-block;
+  margin: 0 12px 12px 0;
+  vertical-align: top;
+}

@@ -1,0 +1,29 @@
+.box {
+  position: relative;
+
+  width: 272px;
+  background: #dfe3e6;
+  border-radius: 3px;
+}
+
+.img {
+  width: 15px;
+  height: 15px;
+  margin: 13px 8px 15px 12px;
+  background: url(../../resources/images/icons/add_card_icon.svg) no-repeat 0 0;
+  float: left;
+}
+
+.button {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.label {
+  display: table-cell;
+  padding: 12px 12px 12px 0;
+  color: #6b808c;
+  font: normal normal 13px/19px Montserrat, sans-serif;
+  vertical-align: middle;
+}

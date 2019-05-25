@@ -1,0 +1,33 @@
+.box {
+  position: relative;
+
+  width: 272px;
+  box-sizing: border-box;
+  padding-top: 8px;
+  background: #dfe3e6;
+  border-radius: 3px;
+}
+
+.content {
+  padding: 0 12px;
+}
+
+.title {
+  color: #000;
+  font: normal bold 13px/19px Montserrat, sans-serif;
+  outline: none;
+  word-wrap: break-word;
+}
+
+.item-list {
+  padding-top: 12px;
+  margin-bottom: -7px;
+}
+
+.item {
+  padding-bottom: 8px;
+}
+
+.action-form {
+  clear: both;
+}
